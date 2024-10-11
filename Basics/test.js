@@ -4,9 +4,19 @@
 
 /// print 
 
-console.log('Atif Afridi'+' '+'Afridi');
-console.log('hello');
-console.log('hello');
-console.log('hellowwwwwwww');
+console.log('hello world');
+
+/// variables
+
 var x = 10 ;
 console.log(x);
+
+/// conditional checks 
+
+let a =1;
+
+if(a=1){
+    console.log('a is 1');
+}else{
+    console.log('a is not 1');
+}
