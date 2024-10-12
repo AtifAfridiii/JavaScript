@@ -30,13 +30,17 @@ let name1 = ' hsh ' , lastName = ' afridi '
 // console.log(6/3)
 // console.log(9%2);
 
-//console.log((2+3-(-1))-(2*3));
+// console.log((2+3-(-1))-(2*3));
+ 
+//// ********************** Compersion  ****************************
 
 // console.log(null==0);
 // console.log(null>=0);
 // console.log(null<=0);
 
-console.log();
+// console.log(undefined==0);
+// console.log(undefined>=0);
+// console.log(undefined<=0);
 
+// console.log(true===1);
 
-console.log(true===1);
