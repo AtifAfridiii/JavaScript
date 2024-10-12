@@ -9,5 +9,7 @@ console.log(typeof b , b);
 let unknown  = undefined
 console.log(typeof unknown , unknown);
 
-let x = Boolean(unknown)
+let val = 'sss'
+
+let x = Boolean(val)
 console.log(typeof x , x);
