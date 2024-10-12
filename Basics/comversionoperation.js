@@ -13,3 +13,5 @@ let val = 'sss'
 
 let x = Boolean(val)
 console.log(typeof x , x);
+
+
