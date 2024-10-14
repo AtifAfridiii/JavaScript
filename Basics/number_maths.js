@@ -18,9 +18,13 @@ const number = 509
  
  // *********************** Math *****************************
 
- console.log(Math.abs(-3));
- console.log(Math.round(9.5))
- console.log(Math.min(2,3,57,8,4,9))
- console.log(Math.max(2,3,57,8,4,9))
- console.log(Math.pow(2,2))
- console.log(Math.random().toPrecision(1))
+//  console.log(Math.abs(-3));
+//  console.log(Math.round(9.5))
+//  console.log(Math.min(2,3,57,8,4,9))
+//  console.log(Math.max(2,3,57,8,4,9))
+//  console.log(Math.pow(2,2))
+
+// console.log(Math.floor(Math.random()*10)+1)
+// const min = 10 
+// const max = 20
+// console.log(Math.floor(Math.random()*(max-min+1)+min))
