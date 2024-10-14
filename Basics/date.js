@@ -16,4 +16,7 @@ let anotherDate = new Date(2024 , 0 , 12 ,5,31)
 let date2 = new Date('01,3,2024')
 
 
-console.log(date2.getMonth()+1);
+//console.log(date2.getMonth()+1);
+
+// console.log(Math.floor(Date.now()/1000));
+
