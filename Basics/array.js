@@ -15,4 +15,5 @@ let a = arr
 // console.log(arr);
 // console.log(a);
 // console.log(array.concat(arr2));
+// console.log(arr2.reverse());
 
