@@ -23,7 +23,6 @@ let arr = [1,2,3,4,5]
 // console.log(arr.indexOf(4));
 // console.log(typeof arr , arr.join());
 // console.log(arr2.flat(Infinity));
-
 // console.log(Array.isArray('Atif'));
 // console.log(Array.from('Atif'));
 // console.log();
