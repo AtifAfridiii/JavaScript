@@ -8,6 +8,7 @@ let any = {
     age : 21 ,
     'Email' : "atifjs@gmail.com" ,
     [mySym] : 'My Symbol',
+    arr : ['hello' , 'js' , 1110 , true , 10.89 ,]
 }
 // console.log(any);
 // console.log(any['name']);
@@ -21,6 +22,9 @@ let any = {
 // Object.freeze(any)
 // any.age=19 
 // console.log(any);
+// console.log(any.arr[3]);
+
+
 
 // any.greeting = function(){
 
@@ -30,7 +34,6 @@ let any = {
 // any.greetingTwo = function(){
 //     console.log(`Hello ${this.name}`);
 // }
-
 
 // console.log(any.greeting());
 // console.log( any.greetingTwo());
