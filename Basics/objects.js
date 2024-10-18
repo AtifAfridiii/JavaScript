@@ -21,3 +21,17 @@ let any = {
 // Object.freeze(any)
 // any.age=19 
 // console.log(any);
+
+// any.greeting = function(){
+
+//     console.log('Hello world');
+// }
+
+// any.greetingTwo = function(){
+//     console.log(`Hello ${this.name}`);
+// }
+
+
+// console.log(any.greeting());
+// console.log( any.greetingTwo());
+
