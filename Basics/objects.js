@@ -3,7 +3,13 @@
 let mySym = Symbol('mySym')
 
 let any = {
-
+    obj : {
+     student : true,
+     id : 12345,
+     'institute': "xyz",
+     js : "yes",
+     arr : [1,2,3,4,5,6,7,8,9]
+    },
     name : "Atif" ,
     age : 21 ,
     'Email' : "atifjs@gmail.com" ,
@@ -23,7 +29,10 @@ let any = {
 // any.age=19 
 // console.log(any);
 // console.log(any.arr[3]);
-
+// console.log(any.obj.js);
+// console.log(any.obj['institute']);
+// console.log(any.obj.arr[3]);
+// console.log(any.obj.arr.includes(9));
 
 
 // any.greeting = function(){
@@ -37,4 +46,5 @@ let any = {
 
 // console.log(any.greeting());
 // console.log( any.greetingTwo());
+
 
