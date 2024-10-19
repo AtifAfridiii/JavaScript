@@ -63,3 +63,9 @@ console.log(obj3);
 
 obj4 = Object.assign( {},obj1 , obj2) ; // another way of concatenating
 console.log(obj4);
+
+console.log(Object.keys(obj3));
+console.log(Object.values(obj3));
+console.log(Object.entries(obj3));
+
+
