@@ -66,7 +66,7 @@
 
 // console.log(Object.keys(obj3));
 // console.log(Object.values(obj3));
-// console.log(Object.entries(obj3)); 
+// console.log(Object.entries(obj3)); //
 
 
 
