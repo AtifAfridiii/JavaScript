@@ -1,21 +1,22 @@
 // ************************** Objects ********************
 
-let mySym = Symbol('mySym')
+// let mySym = Symbol('mySym')
 
-let any = {
-    obj : {
-     student : true,
-     id : 12345,
-     'institute': "xyz",
-     js : "yes",
-     arr : [1,2,3,4,5,6,7,8,9]
-    },
-    name : "Atif" ,
-    age : 21 ,
-    'Email' : "atifjs@gmail.com" ,
-    [mySym] : 'My Symbol',
-    arr : ['hello' , 'js' , 1110 , true , 10.89 ,]
-}
+// let any = {
+    
+//     name : "Atif" ,
+//     age : 21 ,
+//     'Email' : "atifjs@gmail.com" ,
+//     [mySym] : 'My Symbol',
+//     arr : ['hello' , 'js' , 1110 , true , 10.89 ,] ,
+//     obj : {
+//         student : true,
+//         id : 12345,
+//         'institute': "xyz",
+//         js : "yes",
+//         arr : [1,2,3,4,5,6,7,8,9]
+//        },
+// }
 // console.log(any);
 // console.log(any['name']);
 // console.log(any.age);
@@ -48,3 +49,7 @@ let any = {
 // console.log( any.greetingTwo());
 
 
+const obj = {}
+obj.name ='Atif',
+obj.age = 21
+console.log(obj);
