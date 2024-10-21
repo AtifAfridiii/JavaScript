@@ -9,4 +9,6 @@ const obj={
 console.log(obj);
 console.log(obj.age);
 console.log(obj.arr[3]);
+console.log(obj.arr);
+
 
