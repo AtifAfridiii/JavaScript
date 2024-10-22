@@ -14,4 +14,3 @@ delete obj.name ; // delete name from obj
 console.log(obj);
 
 
-
