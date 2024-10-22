@@ -10,5 +10,8 @@ console.log(obj);
 console.log(obj.age);
 console.log(obj.arr[3]);
 console.log(obj.arr);
+delete obj.name ;
+console.log(obj);
+
 
 
