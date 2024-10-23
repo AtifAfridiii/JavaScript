@@ -13,6 +13,7 @@ console.log(obj.arr);
 delete obj.name ; // delete name from obj
 console.log(obj);
 console.log( obj.hasOwnProperty('name') );
+// console.log(obj.);
 
 
 
