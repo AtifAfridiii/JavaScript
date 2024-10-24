@@ -29,15 +29,26 @@ const obj2 = {
 
 // ***************** object destructure **********************
 
-const { name, age } = obj;
-console.log(name); 
-console.log(age);
+// const { name, age } = obj;
+// console.log(name); 
+// console.log(age);
 
-const { name1, subject: { name2 , teacher ,chapter} } = obj2;
-console.log(name1);
-console.log(name2);
-console.log(chapter);
+// const { name1, subject: { name2 , teacher ,chapter} } = obj2;
+// console.log(name1);
+// console.log(name2);
+// console.log(chapter);
 
 
-
+const person = {
+    name: "Emma",
+    age: 29,
+    city: "New York"
+  };
+  
+  function displayInfo({ name, age }) {
+    console.log(`Name: ${name}, Age: ${age}`);
+  }
+  
+  displayInfo(person); 
+  
 
