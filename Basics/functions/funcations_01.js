@@ -1,9 +1,15 @@
 // ****************************** Functions **************************************
 
-function myname (){
+// function myname (){
 
-console.log('atif afridi')
+// console.log('atif afridi')
 
+// }
+
+// myname()
+
+
+function add(num1 , num2){
+    return num1 + num2
 }
-
-myname()
+console.log(add(3,9));
