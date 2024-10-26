@@ -32,9 +32,9 @@ console.log(add(5));
 function add (any11){
     return any11 +1
 }
-
+// console.log(holdValue(5));
 const holdValue = function add2 (num11){
     return num11+3
 }
 
-// console.log(holdValue(5));
+
