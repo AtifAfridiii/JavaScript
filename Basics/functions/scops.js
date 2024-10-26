@@ -14,4 +14,15 @@ function one (){
 two()
 
 }
-one()
+// one()
+
+if(true){
+    const username  = 'atif'
+    if(username==='atif'){
+     const fname = 'afridi'
+     console.log(username);
+    
+    }
+    console.log(fname);
+    
+}
