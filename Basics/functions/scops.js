@@ -27,7 +27,7 @@ if(true){
     
 }
 
-console.log(add(5));
+// console.log(add(5));
 
 function add (any11){
     return any11 +1
@@ -37,4 +37,7 @@ const holdValue = function add2 (num11){
     return num11+3
 }
 
+// ****************************** arrow functions ****************************
+const add3 = (num1,num2) => num1+num2+3 ;
+console.log(add3(3,5));
 
