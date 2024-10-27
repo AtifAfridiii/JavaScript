@@ -43,6 +43,9 @@ username : 'atif afridi' ,
 age : 19 ,
 log_in : function (){
     console.log(`${this.username} user logged in`);
+
+   // console.log(this);
+    
 }
 
 }
@@ -52,5 +55,16 @@ user.log_in()
 
 // ****************************** arrow functions ****************************
 const add3 = (num1,num2) => num1+num2+3 ;
-console.log(add3(3,5));
+// console.log(add3(3,5));
 
+
+// ************************** IIFE *************************
+
+(function named (){
+console.log('hello world'); // => Named IIFE
+})() ;
+
+
+( (name)=>{
+    console.log(`${name} hello world2`);
+})('atif')
