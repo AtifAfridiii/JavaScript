@@ -37,6 +37,19 @@ const holdValue = function add2 (num11){
     return num11+3
 }
 
+const user = {
+
+username : 'atif afridi' ,
+age : 19 ,
+log_in : function (){
+    console.log(`${this.username} user logged in`);
+}
+
+}
+
+user.log_in()
+
+
 // ****************************** arrow functions ****************************
 const add3 = (num1,num2) => num1+num2+3 ;
 console.log(add3(3,5));
