@@ -103,3 +103,11 @@ if(false==0){
 }
 
 
+let val ;
+val = null ?? 10 ;
+
+console.log(val);
+
+let score = 99 
+score>90 ? console.log('score is greater') : console.log('score is less');
+;
