@@ -51,7 +51,27 @@ for(const key in obj){
 
 let arr = ['js','cpp','java','dart','ruby']
 arr.forEach((item,index,array)=>{
-    console.log(item,index,array);
+    // console.log(item,index,array);
     
 })
 
+let objArr = [
+    {
+        name : 'js',
+        fileName : 'javaScript'
+    },
+    {
+        name : 'cpp',
+        fileName : 'C++'
+    },
+    {
+        name : 'java',
+        fileName : 'JVM'
+    },
+]
+
+objArr.forEach((item)=>{
+ console.log( item.name);
+
+ 
+})
