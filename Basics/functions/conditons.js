@@ -58,3 +58,22 @@ switch(month){
 
         
 }
+
+// truthy => "0" , " " , "false" , [] , {} , function(){}
+// falsy => 0 , -0 , null , undefined ,BigInt 0n , "" , nan
+
+let userEmail = []
+
+if(userEmail.length===0){
+    console.log('Array is empty');
+    
+}
+
+let obj = {
+
+}
+
+if(Object.keys(obj).length===0){
+    console.log("Object is empty");
+    
+}
