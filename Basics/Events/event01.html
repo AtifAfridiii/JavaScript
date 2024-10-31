@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .bg-black {
+          background-color: #000000; 
+          color: #FFFFFF;
+        }
+      </style>
 </head>
-<body>
-    
+<body class="bg-black">
+    <div>
+        <ul  id="images">
+            <li id="sign">
+              <img height="131" width="131" src="https://images.pexels.com/photos/28271627/pexels-photo-28271627/free-photo-of-a-road-sign-on-a-barren-road-with-a-red-triangle.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="road">
+            </li>
+            <li id="fruit">
+                <img height="131" width="131" src="https://images.pexels.com/photos/15130188/pexels-photo-15130188/free-photo-of-apples-on-a-tree-in-winter.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="road">
+              </li>
+              <li id="pup">
+                <img height="131" width="131" src="https://images.pexels.com/photos/9675789/pexels-photo-9675789.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="road">
+              </li>
+        </ul>
+        <a href="https://www.google.com/" id="google">Google</a>
+    </div>
 </body>
+<script>
+    document.getElementById('sign').addEventListener('click',function(e){
+    alert('sign board clicked')
+
+    })
+
+    document.getElementById('google').addEventListener('click', function (e) {
+     e.preventDefault()
+    })
+</script>
 </html>
