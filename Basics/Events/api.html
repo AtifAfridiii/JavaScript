@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+   const key = 'https://randomuser.me/api/';
+  const xmlResponse = new XMLHttpRequest()
+  xmlResponse.open('GET',key)
+  xmlResponse.onreadystatechange = function(){
+    if(xmlResponse.readyState === 4 ){
+    const data = this.responseText ;
+    const jsonData = JSON.parse(data);    
+    }
+  }
+  xmlResponse.send();
+
+</script>
+</html>
