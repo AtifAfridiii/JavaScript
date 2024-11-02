@@ -37,15 +37,39 @@ const promiseFour = new Promise(function(resolve , reject){
 })
 
 promiseFour.then((user)=>{
-  console.log(user);
+  // console.log(user);
   return user.name
 }).then((name)=>{
-    console.log(`Name is `+name);
+   // console.log(`Name is `+name);
     return name.age
 }).catch((error)=>{
-    console.log(error);
+   // console.log(error);
     
 }).finally(()=>{
-    console.log('something is happening');
+   // console.log('something is happening');
     
 })
+
+// ****************************************************
+
+const promiseFive = new Promise(function(resolve , reject){
+    let error = false ;
+    if(!error){
+        resolve({name:'Atif Afridi' , age : 19 });  
+      }else{
+        reject('error');
+      }
+})
+
+async function  Consume( ) {
+    
+    try {
+     const response = await promiseFive
+    console.log(response);
+    } catch (error) {
+        console.log(error);
+        
+    }
+    
+}
+Consume()
