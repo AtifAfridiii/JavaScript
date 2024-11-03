@@ -16,8 +16,10 @@ let lname ;
 
 String.prototype.div= function(){
     lname = this.split(' ')
+    
     console.log(`name is ${lname}`);
     
 }
 fname.div()
 console.log(lname);
+
