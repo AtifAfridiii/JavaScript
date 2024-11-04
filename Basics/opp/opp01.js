@@ -23,3 +23,21 @@ String.prototype.div= function(){
 fname.div()
 console.log(lname);
 
+// *********************************** inheritance ********************
+
+
+const user = {
+    name : 'atif',
+    age : '19' ,
+    email : 'atif@gmail.com',
+}
+
+const dept = {
+    name : 'cs',
+    student : '101',
+}
+
+Object.setPrototypeOf(dept,user);
+
+
+
