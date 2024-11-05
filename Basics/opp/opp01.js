@@ -39,6 +39,23 @@ const dept = {
 
 Object.setPrototypeOf(dept,user);
 
+// ************************** class *********************************
+
+class Anything {
+    constructor(name ,passoward){
+        this.name = name;
+        this.passoward = passoward
+    }
+ 
+    hide (){
+        return `${this.passoward}abc`
+    }
+
+
+}
+
+const acc = new Anything('insta','123')
+console.log(acc.hide());
 
 
 // **************************** inheritance *********************************
