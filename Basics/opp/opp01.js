@@ -23,7 +23,7 @@ String.prototype.div= function(){
 fname.div()
 console.log(lname);
 
-// *********************************** inheritance ********************
+// *********************************** protype inheritance ********************
 
 
 const user = {
@@ -41,3 +41,30 @@ Object.setPrototypeOf(dept,user);
 
 
 
+// **************************** inheritance *********************************
+
+class Teacher {
+    constructor(name){
+        this.name = name;
+
+    }
+
+
+
+}
+
+class User extends Teacher {
+    constructor(name,age,email){
+        super(name);
+         this.age = age ;
+         this.email = email
+    };
+
+     logme () {
+        console.log(`name is ${this.name} , age is ${this.age} , email is ${this.email}`);
+        
+    }
+}
+
+const student = new User('atif',19,'xyz@gmail.com')
+student.logme();
