@@ -77,12 +77,14 @@ class User extends Teacher {
          this.email = email
     };
 
-    // static 
-    
-     logme () {
-        console.log(`name is ${this.name} , age is ${this.age} , email is ${this.email}`);
+    // static  logme () {
+    //     console.log(`name is ${this.name} , age is ${this.age} , email is ${this.email}`);
         
-    }
+    // }
+    logme () {
+            console.log(`name is ${this.name} , age is ${this.age} , email is ${this.email}`);
+            
+        }
 }
 
 const student = new User('atif',19,'xyz@gmail.com')
